@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ddino99/CLionProjects/ncurses/game.cpp
+ncurses.h
+-
+iostream
+-
+cstring
+-
+
+/home/ddino99/CLionProjects/ncurses/menu.cpp
+ncurses.h
+-
+iostream
+-
+game.cpp
+/home/ddino99/CLionProjects/ncurses/game.cpp
+
